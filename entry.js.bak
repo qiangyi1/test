@@ -33,6 +33,8 @@
  }
 
   function getEmbedDashboardUrl() {
+	 window.fetch = require('node-fetch');
+    const AWS = require('aws-sdk');
     generateEmbedUrlForRegisteredUser();
     function generateEmbedUrlForRegisteredUser(
         accountId,

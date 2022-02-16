@@ -8,7 +8,7 @@
 
   </script> -->
   <script src="//cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1073.0.min.js"></script>
+ <script src="//unpkg.com/amazon-quicksight-embedding-sdk@1.18.0/dist/quicksight-embedding-js-sdk.min.js"></script>
 </head>
 <body onload="getEmbedDashboardUrl()">
   <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
