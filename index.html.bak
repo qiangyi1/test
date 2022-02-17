@@ -7,8 +7,9 @@
 <!--   <script src="//cdn.bootcss.com/jquery/3.4.1/jquery.min.js">
 
   </script> -->
-  <script src="//cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <script src="//unpkg.com/amazon-quicksight-embedding-sdk@1.18.0/dist/quicksight-embedding-js-sdk.min.js"></script>
+  <!-- <script src="//cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+  <script src="./aws-sdk.min.js"></script>
+  <!-- <script src="https://unpkg.com/amazon-quicksight-embedding-sdk@1.18.1/dist/quicksight-embedding-js-sdk.min.js"></script> -->
 </head>
 <body onload="getEmbedDashboardUrl()">
   <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
@@ -17,6 +18,6 @@
   <!-- <div id="purehtml-container" style="text-align:center"></d
     iv> -->
   <div id="embeddingContainer"></div>
-  <script src="./entry.js" entry></script>
+  <script src="./dist/main.js"></script>
 </body>
 </html>
